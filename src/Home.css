@@ -1,0 +1,13 @@
+.home__section {
+  display: flex;
+  padding: 30px;
+}
+.home__sectionH {
+  padding-left: 30px;
+}
+.home__exploreNearby {
+  margin-left: -55px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}

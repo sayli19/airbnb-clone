@@ -1,0 +1,33 @@
+.exploreCard {
+  position: relative;
+}
+.exploreCard__info {
+  display: flex;
+}
+
+.exploreCard__img {
+  object-fit: fill;
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.exploreCard__desc > p {
+  margin: 0;
+
+  padding: 0;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.exploreCard__desc > h4 {
+  margin-bottom: 0;
+  margin-top: 17px;
+  padding: 0;
+  padding-left: 20px;
+}
+
+.exploreCard:hover {
+  transform: scale(1.07);
+  cursor: pointer;
+}
